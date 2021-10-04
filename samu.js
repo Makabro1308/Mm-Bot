@@ -241,7 +241,7 @@ ppimg = 'https://centromedicomontemar.cl/wp-content/uploads/2015/06/sin-perfil.p
 }
 try {
 let fotoP = await getBuffer(ppimg)
-samu330.sendMessage(mdata.id, `${fotoP}`, MessageType.image, {quoted: {key: {
+samu330.sendMessage(mdata.id, `WELCOME`, MessageType.txt, {quoted: {key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`          
 },                               
